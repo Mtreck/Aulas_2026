@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<!-- Define que o documento está em português -->
+<html lang="pt-BR">
+
+<head>
+
+  <!-- Configura caracteres especiais -->
+  <meta charset="UTF-8">
+
+  <!-- Faz o site funcionar corretamente no celular -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Nome da aba do navegador -->
+  <title>AgroTech Sustentável</title>
+
+  <!-- Conecta o HTML com o arquivo CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- =====================================================
+       TOPO DO SITE
+       ===================================================== -->
+
+  <header class="topo">
+
+    <!-- Menu de navegação -->
+    <nav class="menu">
+
+      <!-- Título principal -->
+      <h1>🌱 AgroTech Sustentável</h1>
+
+      <!-- Link que leva até a calculadora -->
+      <a href="#calculadora">Teste Sustentável</a>
+
+    </nav>
+
+  </header>
+
+  <!-- =====================================================
+       CONTEÚDO PRINCIPAL
+       ===================================================== -->
+
+  <main>
+
+    <!-- =====================================================
+         CAPA / HERO
+         ===================================================== -->
+
+    <section class="hero">
+
+      <!-- Imagem principal do projeto -->
+      <img
+        src="img/Fundo_exemplo.jpg"
+        alt="Campo sustentável com tecnologia e preservação ambiental"
+        class="hero-imagem"
+      >
+
+      <!-- Caixa de texto da capa -->
+      <div class="hero-conteudo">
+
+        <!-- Pequena etiqueta -->
+        <p class="etiqueta">Agrinho 2026</p>
+
+        <!-- Título da capa -->
+        <h2>Agro forte, futuro sustentável</h2>
+
+        <!-- Texto explicativo -->
+        <p>
+          Como a tecnologia pode ajudar o campo a produzir mais,
+          economizar recursos naturais e proteger o meio ambiente?
+        </p>
+
+        <!-- Botão -->
+        <a class="botao-principal" href="#solucoes">
+          Ver soluções
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================================
+         SEÇÃO PROBLEMA
+         ===================================================== -->
+
+    <section class="secao problema">
+
+      <!-- Número decorativo -->
+      <span class="numero">01</span>
+
+      <!-- Título -->
+      <h2>O problema</h2>
+
+      <!-- Texto -->
+      <p>
+        O campo é essencial para produzir alimentos e movimentar a economia.
+        Porém, sem equilíbrio, podem surgir problemas como desperdício de água,
+        poluição, desmatamento e enfraquecimento do solo.
+      </p>
+
+    </section>
+
+    <!-- =====================================================
+         SEÇÃO DE SOLUÇÕES
+         ===================================================== -->
+
+    <section class="secao" id="solucoes">
+
+      <span class="numero">02</span>
+
+      <h2>Soluções tecnológicas</h2>
+
+      <!-- Área dos cards -->
+      <div class="cards">
+
+        <!-- CARD 1 -->
+        <article class="card">
+
+          <span class="icone">💧</span>
+
+          <h3>Irrigação inteligente</h3>
+
+          <p>
+            Usa sensores para medir a umidade do solo e evitar desperdício de água.
+          </p>
+
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+
+          <span class="icone">☀️</span>
+
+          <h3>Energia solar</h3>
+
+          <p>
+            Ajuda a reduzir custos e utiliza uma fonte de energia limpa e renovável.
+          </p>
+
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+
+          <span class="icone">🌱</span>
+
+          <h3>Preservação do solo</h3>
+
+          <p>
+            Técnicas sustentáveis mantêm o solo saudável por mais tempo.
+          </p>
+
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="card">
+
+          <span class="icone">📡</span>
+
+          <h3>Sensores no campo</h3>
+
+          <p>
+            Monitoram temperatura, umidade e outras informações importantes.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================================
+         CALCULADORA SUSTENTÁVEL
+         ===================================================== -->
+
+    <section class="secao calculadora" id="calculadora">
+
+      <span class="numero">03</span>
+
+      <h2>Calculadora de sustentabilidade</h2>
+
+      <p>
+        Marque as ações sustentáveis que uma propriedade rural poderia praticar.
+      </p>
+
+      <!-- Formulário -->
+      <form class="formulario">
+
+        <!-- Checkbox 1 -->
+        <label>
+
+          <input type="checkbox" id="agua">
+
+          Economiza água com irrigação inteligente
+
+        </label>
+
+        <!-- Checkbox 2 -->
+        <label>
+
+          <input type="checkbox" id="energia">
+
+          Usa energia limpa
+
+        </label>
+
+        <!-- Checkbox 3 -->
+        <label>
+
+          <input type="checkbox" id="reciclagem">
+
+          Separa e reaproveita resíduos
+
+        </label>
+
+        <!-- Checkbox 4 -->
+        <label>
+
+          <input type="checkbox" id="arvores">
+
+          Preserva árvores e áreas verdes
+
+        </label>
+
+        <!-- Botão que chama o JavaScript -->
+        <button type="button" onclick="calcularSustentabilidade()">
+
+          Calcular resultado
+
+        </button>
+
+      </form>
+
+      <!-- Resultado mostrado pelo JavaScript -->
+      <div class="resultado" id="resultado">
+
+        O resultado aparecerá aqui.
+
+      </div>
+
+    </section>
+
+    <!-- =====================================================
+         IMPACTO DO PROJETO
+         ===================================================== -->
+
+    <section class="secao impacto">
+
+      <span class="numero">04</span>
+
+      <h2>Impacto do projeto</h2>
+
+      <p>
+        Este projeto mostra que tecnologia e sustentabilidade podem caminhar juntas.
+        Com atitudes simples e soluções inteligentes, é possível fortalecer o agro
+        e preservar o futuro.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       RODAPÉ
+       ===================================================== -->
+
+  <footer class="rodape">
+
+    <p>
+      Projeto Agrinho — HTML, CSS e JavaScript básico
+    </p>
+
+  </footer>
+
+  <!-- Conecta o HTML ao JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
