@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos com HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Uso da Internet na Semana</h1>
+
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Horas</th>
+                <th>Porcentagem</th>
+            </tr>
+
+            <tr>
+                <td>Segunda</td>
+                <td>2h</td>
+                <td>14%</td>
+            </tr>
+
+            <tr>
+                <td>Terça</td>
+                <td>3h</td>
+                <td>21%</td>
+            </tr>
+
+            <tr>
+                <td>Quarta</td>
+                <td>4h</td>
+                <td>29%</td>
+            </tr>
+
+            <tr>
+                <td>Sexta</td>
+                <td>5h</td>
+                <td>36%</td>
+            </tr>
+        </table>
+
+        <h2>Gráfico de Barras</h2>
+
+        <div class="barra seg">Segunda - 14%</div>
+        <div class="barra ter">Terça - 21%</div>
+        <div class="barra qua">Quarta - 29%</div>
+        <div class="barra sex">Sexta - 36%</div>
+
+        <h2>Gráfico de Pizza</h2>
+
+        <div class="pizza">
+            <span class="texto-pizza texto-seg">14%</span>
+            <span class="texto-pizza texto-ter">21%</span>
+            <span class="texto-pizza texto-qua">29%</span>
+            <span class="texto-pizza texto-sex">36%</span>
+        </div>
+
+        <div class="legenda">
+            <p><span class="cor seg-cor"></span> Segunda - 2h</p>
+            <p><span class="cor ter-cor"></span> Terça - 3h</p>
+            <p><span class="cor qua-cor"></span> Quarta - 4h</p>
+            <p><span class="cor sex-cor"></span> Sexta - 5h</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

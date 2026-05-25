@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 550px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.barra {
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seg {
+    width: 38%;
+    background-color: #3498db;
+}
+
+.ter {
+    width: 55%;
+    background-color: #2ecc71;
+}
+
+.qua {
+    width: 75%;
+    background-color: #f1c40f;
+    color: #333;
+}
+
+.sex {
+    width: 100%;
+    background-color: #e74c3c;
+}
+
+.pizza {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 25px auto;
+    position: relative;
+
+    background: conic-gradient(
+        #3498db 0% 14%,
+        #2ecc71 14% 35%,
+        #f1c40f 35% 64%,
+        #e74c3c 64% 100%
+    );
+}
+
+.texto-pizza {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.texto-seg {
+    top: 45px;
+    right: 70px;
+}
+
+.texto-ter {
+    top: 95px;
+    right: 35px;
+}
+
+.texto-qua {
+    bottom: 45px;
+    left: 85px;
+    color: #333;
+}
+
+.texto-sex {
+    top: 80px;
+    left: 35px;
+}
+
+.legenda {
+    margin-top: 20px;
+}
+
+.legenda p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.cor {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.seg-cor {
+    background-color: #3498db;
+}
+
+.ter-cor {
+    background-color: #2ecc71;
+}
+
+.qua-cor {
+    background-color: #f1c40f;
+}
+
+.sex-cor {
+    background-color: #e74c3c;
+}

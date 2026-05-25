@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dfe9f3;
+}
+
+.app {
+    width: 100%;
+    max-width: 430px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    background: #f7f9fc;
+}
+
+.topo {
+    background: linear-gradient(135deg, #2d9cdb, #56ccf2);
+    color: white;
+    padding: 25px 20px;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    margin: -20px -20px 20px -20px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.topo p {
+    margin: 8px 0 0;
+    font-size: 14px;
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #263238;
+    font-size: 20px;
+}
+
+.destaque {
+    background: #263238;
+    color: white;
+    text-align: center;
+}
+
+.destaque h2 {
+    color: white;
+    margin: 5px 0;
+}
+
+.destaque span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #56ccf2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #2d9cdb;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item {
+    margin-bottom: 12px;
+}
+
+.item span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.barra {
+    background: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.preenchimento {
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.seg {
+    width: 40%;
+    background: #2d9cdb;
+}
+
+.ter {
+    width: 60%;
+    background: #27ae60;
+}
+
+.qua {
+    width: 80%;
+    background: #f2c94c;
+    color: #333;
+}
+
+.qui {
+    width: 60%;
+    background: #9b51e0;
+}
+
+.sex {
+    width: 100%;
+    background: #eb5757;
+}
+
+.pizza {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 25px auto;
+    position: relative;
+    background: conic-gradient(
+        #2d9cdb 0% 12%,
+        #27ae60 12% 30%,
+        #f2c94c 30% 54%,
+        #9b51e0 54% 72%,
+        #eb5757 72% 100%
+    );
+}
+
+.p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.seg-p {
+    top: 35px;
+    right: 75px;
+}
+
+.ter-p {
+    top: 75px;
+    right: 35px;
+}
+
+.qua-p {
+    bottom: 45px;
+    right: 80px;
+    color: #333;
+}
+
+.qui-p {
+    bottom: 70px;
+    left: 35px;
+}
+
+.sex-p {
+    top: 75px;
+    left: 35px;
+}
+
+.legenda p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.cor {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+
+.azul {
+    background: #2d9cdb;
+}
+
+.verde {
+    background: #27ae60;
+}
+
+.amarelo {
+    background: #f2c94c;
+}
+
+.roxo {
+    background: #9b51e0;
+}
+
+.vermelho {
+    background: #eb5757;
+}
+
+.conclusao p {
+    line-height: 1.5;
+    color: #444;
+}
