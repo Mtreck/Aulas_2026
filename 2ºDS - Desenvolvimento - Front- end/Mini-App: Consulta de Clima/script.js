@@ -62,11 +62,25 @@ botaoBuscar.addEventListener("click", async function(){
                     <img src="${iconeUrl}" alt="${item.weather[0].description}">
                     <p>${item.main.temp.toFixed(0)}ºc</p>
                 </div>
-            `
+            `;
             }
         }
     }
+    
+    botaoBuscar.addEventListener("click", function(){
+        const cidade = campoCidade.value;
+        if (cidade == "") return;
+        realizarBusca(cidade);
+    })
 
+    window.addEventListener("load", function(){
+        const cidadeSalva = localStorage.getItem("ultimaCidade")
+        if (cidadeSalva){
+            campoCidade.value = cidadeSalva;
+            realizarBusca(cidadeSalva);
+        }
+    })
+    
 
     async function buscarPrevisao(cidade){
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${CHAVE_API}&units=metric&lang=pt_br`
